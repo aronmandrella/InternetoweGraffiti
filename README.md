@@ -19,7 +19,8 @@ Wszystkie potrzebne pliki są dostępne w folderze ‘- Serwer PHP’.
 Po przygotowaniu serwera i bazy danych wystarczy w ustawieniach aplikacji wskazać adres do folderu w którym umieszczono pliki.</sub>
 
 ## 🧰 Wykorzystane technologie i narzędzia
-* **Node.js, NPM, JavaScript ES8, CSS, HTML, AJAX, REST**
+* **Node.js, NPM, JavaScript ES8, CSS, HTML**
+* **AJAX, REST**
 * **SQL**
 * **PHP**
 * **jQuery**
