@@ -1,8 +1,8 @@
 # Internetowe Graffiti wersja PHP (2019)
 
-![Thumbnail](https://raw.githubusercontent.com/aronmandrella/InternetoweGraffiti/main/-%20Graphics/GitHub_Thumbnail.png)
-
 **Autor**: Aron Mandrella
+
+![Thumbnail](https://raw.githubusercontent.com/aronmandrella/InternetoweGraffiti/main/-%20Graphics/GitHub_Thumbnail.png)
 
 ## Interfejs graficzny
 ![GUI-GIF](https://raw.githubusercontent.com/aronmandrella/InternetoweGraffiti/main/-%20Graphics/Gui1.gif)
