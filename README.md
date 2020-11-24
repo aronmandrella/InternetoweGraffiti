@@ -1,4 +1,4 @@
-# Internetowe Graffiti (Wersja PHP) (2019)
+# Internetowe Graffiti wersja PHP (2019)
 
 [![Thumbnail](https://github.com/aronmandrella/MirrorDisc/blob/main/GitHub_Thumbnail.png)](https://github.com/aronmandrella/MirrorDisc)
 
