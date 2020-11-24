@@ -4,9 +4,6 @@
 
 ![Thumbnail](https://raw.githubusercontent.com/aronmandrella/InternetoweGraffiti/main/-%20Graphics/GitHub_Thumbnail.png)
 
-## Interfejs graficzny
-![GUI-GIF](https://raw.githubusercontent.com/aronmandrella/InternetoweGraffiti/main/-%20Graphics/Gui1.gif)
-
 ## Opis
 Ta prosta aplikacja stanowi połączenie Twittera i Pokemon GO.
 Osoba chcąca odczytać dany opublikowany post, musi się udać z telefonem niedaleko miejsca w którym znajdował się jego autor w chwili publikacji.
@@ -31,3 +28,6 @@ Po przygotowaniu serwera i bazy danych wystarczy w ustawieniach aplikacji wskaza
 
 ## 🎓 Zdobyta bądź poszerzona wiedza
 * Tworzenie prostych aplikacji mobilnych wykorzystujących webiew oraz funkcje telefonu takie jak aparat i lokalizacja
+
+## Interfejs graficzny
+![GUI-GIF](https://raw.githubusercontent.com/aronmandrella/InternetoweGraffiti/main/-%20Graphics/Gui1.gif)
