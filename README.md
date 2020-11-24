@@ -1,11 +1,11 @@
 # Internetowe Graffiti wersja PHP (2019)
 
-[![Thumbnail](https://github.com/aronmandrella/MirrorDisc/blob/main/GitHub_Thumbnail.png)](https://github.com/aronmandrella/MirrorDisc)
+![Thumbnail](https://raw.githubusercontent.com/aronmandrella/InternetoweGraffiti/main/-%20Graphics/GitHub_Thumbnail.png)
 
 **Autor**: Aron Mandrella
 
 ## Interfejs graficzny
-![GUI-GIF](https://github.com/aronmandrella/MirrorDisc/blob/main/MirrorDiscPreview.gif)
+![GUI-GIF](https://raw.githubusercontent.com/aronmandrella/InternetoweGraffiti/main/-%20Graphics/Gui1.gif)
 
 ## Opis
 Ta prosta aplikacja stanowi połączenie Twittera i Pokemon GO.
