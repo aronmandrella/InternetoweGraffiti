@@ -1,0 +1,38 @@
+<template>
+  <div id="explore-page" class="page" data-name="explore">
+    
+    <!-- NAVBAR NA GÓRZE -->
+    <div id="explore-page-navbar" class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner">
+            <div class="left"></div>
+            <div class="title"></div>
+            <div class="right"></div>
+        </div>
+    </div>
+
+    <!-- Scrollable page content-->
+    <div class="page-content ptr-content infinite-scroll-content explore-page-content" data-ptr-distance="55">
+      <!-- Default pull to refresh preloader-->
+      <div class="ptr-preloader">
+        <div class="preloader"></div>
+        <div class="ptr-arrow"></div>
+      </div>
+
+      <div id="explore-map" style="height: 30vh; width: 100%; z-index: -1"></div>
+      <div id="map-slider-block" class="slider-block">
+        <!--<div class="slider-title">Promień widocznosci (m):</div>-->
+        <div id="map-range-slider" class="range-slider"></div>
+      </div>
+      
+      <div class="entry-cards-container">
+        <!-- MIEJSCE ZAMIESZCZANA WPISÓW -->
+      </div>
+      <div class="preloader infinite-scroll-preloader" style="display: none"></div>
+    </div>
+  </div>
+</template>
+
+<script>
+  export default {};
+</script>

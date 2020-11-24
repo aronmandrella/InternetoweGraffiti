@@ -1,0 +1,57 @@
+<template>
+<div id="settings-page" class="page" data-name="settings">
+  <div class="navbar">
+    <div class="navbar-bg"></div>
+    <div class="navbar-inner">
+      <div class="title">Ustawienia</div>
+    </div>
+  </div>
+  <div id="settings-page-content" class="page-content">
+
+    <div class="block">
+      <div class="profile-picture">
+          <img src="./static/user.png"/>
+      </div>
+      <div class="profile-name">
+        Użytkownik
+      </div>
+    </div>
+
+
+    <div class="block-title settings-title">Ustawienia profilu:</div>
+    <div class="setting-list list no-hairlines">
+      <ul>
+        <li><a id="setting-user-avatar" href="#" class="item-link list-button">
+          <div class="setting">
+            <div class="setting-icon"><i class="fas fa-user"></i></div>
+            <div class="setting-name">Zdjęcie profilowe</div>
+          </div>
+        </a></li>
+        <li><a id="setting-user-name" href="#" class="item-link list-button">
+          <div class="setting">
+            <div class="setting-icon"><i class="fas fa-pencil-alt"></i></div>
+            <div class="setting-name">Nazwa użytkownika</div>
+          </div>
+        </a></li>
+      </ul>
+    </div>
+    <div class="block-title settings-title">Ustawienia serwera:</div>
+    <div class="setting-list list no-hairlines">
+      <ul>
+        <li><a id="setting-server-url" href="#" class="item-link list-button">
+          <div class="setting">
+            <div class="setting-icon"><i class="fas fa-database"></i></div>
+            <div>
+                <div class="setting-name">Bazowy adres serwera</div>
+                <div id="server-url" class="setting-value">www.google.com</div>
+            </div>
+          </div>
+        </a></li>
+    </div>
+
+  </div>
+</div>
+</template>
+<script>
+export default {};
+</script>

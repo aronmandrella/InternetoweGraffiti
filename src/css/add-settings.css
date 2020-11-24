@@ -1,0 +1,126 @@
+/* -------------- STYLE USTAWIEŃ --------------- */
+
+.profile-picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 2.5em;
+    width: 9em; height: 9em;
+    border-radius: 50%;
+
+    border: 0.2em solid var(--main-app-color);
+}
+.profile-picture img{
+    display: block;
+    width: 85%; height: 85%;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profile-picture img:hover{
+    opacity: 0.9;
+}
+.profile-picture img:active{
+    opacity: 0.8;
+}
+  
+.profile-name{
+    font-size: 2em;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 0.3em;
+    
+    text-align: center;
+    width: 91%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.settings-title{
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+.setting{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.5em 0;
+}
+.setting *{
+    line-height: 1.3em;
+}
+.setting-list{
+    margin: 0;
+}
+.setting-icon{
+    font-size: 1.2em; line-height: 1.2em; 
+    width: 1.3em; height: 1.3em;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0.3em;
+    margin-right: 0.6em;
+
+    color: white;
+    background: var(--main-app-color);
+}
+.setting-value{
+    font-size: 0.8em;
+    opacity: 0.6;
+}
+
+
+/* -------------- STYLE DODAWANIA WPISÓW --------------- */
+
+.post-editor .block-footer{
+    text-align: right;
+    margin-bottom: 0;
+}
+.post-editor .block-footer button{
+    margin-top: 1em;
+}
+.post-editor-inner {
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 15px 15px;
+}
+.post-editor-inner textarea{
+    width: 100%;
+}
+.post-editor-toolbox{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-width: 1px 1px 0 1px;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    background: #f7f7f7;
+}
+.post-editor-toolbox button{
+    width: initial;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.image-preview{
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    margin-top: 1em;
+}
+.image-preview button{
+    position: absolute;
+    bottom: 0.5em; right: 0.5em;
+    width: 2.5em; height: 2.5em;
+    border-radius: 50%;
+}
+.image-preview img{
+    display: block;
+    max-width: 100%; max-height: 16em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2), 0px 0px 5px rgba(0, 0, 0, 0.5);
+}

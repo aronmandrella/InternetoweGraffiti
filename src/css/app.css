@@ -1,0 +1,14 @@
+:root{
+    --main-app-color: #296ed4;
+    --bg-color: #f7f7f7;
+
+
+    --f7-theme-color: var(--main-app-color);
+}
+
+.navbar{
+    color: white;
+}
+.navbar-bg{
+    background-color: var(--main-app-color);
+}

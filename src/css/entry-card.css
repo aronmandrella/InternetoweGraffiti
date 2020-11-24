@@ -1,0 +1,133 @@
+/* -------- DODATKOWE STYLE NA STRONIE WPISÓW -------- */
+
+.slider-block{
+  padding: 25px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.leaflet-control-attribution{
+  opacity: 0.9;
+}
+.leaflet-control-attribution a{
+  color: var(--main-app-color) !important;
+}
+
+#explore-page-navbar{
+  font-size: 1.2em;
+}
+
+/* -------- GŁÓWNE STYLE KART -------- */
+
+.explore-page-content{
+  background: hsl(211, 0%, 85%);
+}
+
+.entry-card{
+  padding: 0.6em 0;
+}
+#map-slider-block, .entry-card{
+  background: white;
+  color: black;
+  border: 1px solid hsl(0, 0%, 75%);
+  border-width: 1px 0px;
+  margin-bottom: 0.5em;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 20%);
+}
+
+
+/* -------- STYLE NAGŁÓWKA WPISU -------- */
+
+.entry-card .entry-header {
+    display: flex;
+    font-size: 14px;
+    padding: 0 1em;
+    margin-bottom: 0.6em;
+}
+
+/* Okrągły avatar */
+.entry-card .entry-user-avatar {
+  margin-right: 0.5em;
+  cursor: pointer;
+}
+.entry-card .entry-user-avatar img {
+  display: block;
+  width: 3em; height: 3em;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.entry-card .entry-user-avatar img:hover{
+  opacity: 0.9;
+}
+.entry-card .entry-user-avatar img:active{
+  opacity: 0.8;
+}
+
+
+/* Ustawienie zawijania tekstu */
+.entry-card .entry-info{
+  flex-grow: 1; min-width: 0;
+}
+.entry-card .entry-info > *{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Stylizowanie nagłówka */
+.entry-card .entry-user-name {
+  font-weight: 600;
+}
+.entry-card .entry-parameters {
+  opacity: 0.6;
+  font-size: 0.85em;
+}
+.entry-card .entry-parameters > *{
+  margin-right: 0.2em;
+}
+
+/* -------- STYLE ZAWARTOŚCI WPISU -------- */
+
+.entry-card .entry-content > *:nth-child(2){
+  margin-top: 0.6em; 
+}
+/* Styl kompaktowego wyświetlania zdjęć we wpisach */
+.entry-card .entry-content .entry-image img {
+  display: block;
+  width: 100%;
+  max-height: 50vw;
+  object-fit: cover;
+  cursor: pointer;
+}
+.entry-card .entry-content .entry-image img:hover{
+  opacity: 0.9;
+}
+.entry-card .entry-content .entry-image img:active{
+  opacity: 0.8;
+}
+
+.entry-card .entry-content .entry-text{
+  padding: 0 1em;
+}
+.entry-card .entry-content .entry-text-large{
+  font-size: 1.7em;
+  margin-bottom: 0.3em;
+}
+
+.show-more-button{
+  display: inline-block;
+  white-space: nowrap;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.show-more-button:hover{
+  opacity: 0.3;
+}
+.show-more-button:active{
+  opacity: 0.2;
+  
+}
+
+.show-more-content{
+  display: none;
+}
