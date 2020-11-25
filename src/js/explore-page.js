@@ -427,20 +427,18 @@ class ExplorePage{
                     id: 1,
                     userId: 1,
                     userName: 'Tadeusz Półklata',
-                    lat: 50.36287,
-                    lon: 18.85391,
+                    lat: 52.00000,
+                    lon: 20.00000,
                     date: '2012-04-23T18:25:43.511Z',
                     image: 'https://www2.fch.vut.cz/lectures/thermophysics/2014/images/invited_Bodzenta.jpg',
                   },{
                     id: 2,
                     userId: 1,
-                    userAvatar: 'https://4.allegroimg.com/original/035fec/5067e31547da8fe44c7875ebe574',
                     userName: 'Aroff Mandela',
-                    lat: 50.36587,
-                    lon: 18.85691,
+                    lat: 52.00000,
+                    lon: 20.00000,
                     date: '2012-04-23T18:25:43.511Z',
-                    text: 'Dobra bożena nie jest zła',
-                    //image: 'https://www.radiopiekary.pl/wp-content/uploads/2018/12/pasteura-bytom-zmiana.jpg',
+                    text: 'Test',
                   }
                 ];
               }
