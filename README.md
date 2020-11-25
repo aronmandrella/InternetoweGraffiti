@@ -11,8 +11,6 @@ Aplikacja powstała w ramach zaliczenia przedmiotu na studiach.
 
 [💾 Aplikacja do pobrania* (Android)](https://github.com/aronmandrella/InternetoweGraffiti/releases/tag/v1.0)
 
-↩️ [Powrót do portfolio](https://github.com/aronmandrella/portfolio#spis-tre%C5%9Bci)
-
 <sub>* By przetestować tą aplikację konieczne będzie samodzielne przygotowanie serwera i bazy danych.
 Wszystkie potrzebne pliki są dostępne w folderze ‘- Serwer PHP’.
 Po przygotowaniu serwera i bazy danych wystarczy w ustawieniach aplikacji wskazać adres do folderu w którym umieszczono pliki.</sub>
