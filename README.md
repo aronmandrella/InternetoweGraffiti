@@ -9,7 +9,7 @@ Ta prosta aplikacja stanowi połączenie Twittera i Pokemon GO.
 Osoba chcąca odczytać dany opublikowany post, musi się udać z telefonem niedaleko miejsca w którym znajdował się jego autor w chwili publikacji.
 Aplikacja powstała w ramach zaliczenia przedmiotu na studiach.
 
-[💾 Aplikacja do pobrania* (Android)](https://github.com/aronmandrella/InternetoweGraffiti/releases/tag/v1.0)
+[Aplikacja do pobrania* (Android)](https://github.com/aronmandrella/InternetoweGraffiti/releases/tag/v1.0)
 
 <sub>* By przetestować tą aplikację konieczne będzie samodzielne przygotowanie serwera i bazy danych.
 Wszystkie potrzebne pliki są dostępne w folderze ‘- Serwer PHP’.
